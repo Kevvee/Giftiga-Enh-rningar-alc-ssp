@@ -1,0 +1,1 @@
+print("Välkommen till Sten, Sax, Påse!")
