@@ -12,9 +12,9 @@
 
 #print(f"Välkommen till spelet {namn}!")
 
-gamer = input("Välj \n [1]sten\n [2]sax\n [3]påse\n")
-
 import random
+gamer = input("Välj\n [1]sten\n [2]sax\n [3]påse\n")
+
 bot = random.randint (1,3)
-if bot == 1:
-    print("hej")
+if gamer == bot:
+    print('lika')
